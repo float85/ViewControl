@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">View Control</string>
+
+    <string name="checkbox_cancel">Không đồng ý</string>
+    <string name="checkbox_ok">Đồng ý</string>
+    <string name="ck_done">Check đồng ý hay không</string>
+</resources>

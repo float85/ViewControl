@@ -2,6 +2,7 @@ package com.example.viewcontrol;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -21,9 +22,10 @@ public class ViewControl extends AppCompatActivity {
     RatingBar ratingBar;
     ToggleButton toggleButton;
     Switch aSwitch;
-
-
-    String name, pass, phoneNumber, textdieukhoan;
+    String name;
+    String pass;
+    String phoneNumber;
+    String textdieukhoan;
     boolean iABoolean;
 
     @Override
@@ -49,8 +51,8 @@ public class ViewControl extends AppCompatActivity {
                 pass = etPass.getText().toString();
                 phoneNumber = etPhoneNumber.getText().toString();
                 iABoolean = chOk.isChecked();
-                if (iABoolean) textdieukhoan = "Đồng ý";
-                else textdieukhoan = "Không đồng ý";
+                if (iABoolean) textdieukhoan = getString(R.string.checkbox_ok);
+                else textdieukhoan = getString(R.string.checkbox_cancel);
 
                 int age = seeBar.getProgress();
                 float rating = ratingBar.getRating();

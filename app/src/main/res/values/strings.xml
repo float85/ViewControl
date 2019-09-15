@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">View Control</string>
+
+    //Login
+    <string name="checkbox_ok">OK</string>
+    <string name="checkbox_cancel">Not OK</string>
+    <string name="ck_done">Bạn đồng ý với điều khoản sử dụng</string>
+
+
 </resources>
